@@ -20,21 +20,22 @@ See [ROADMAP.md](ROADMAP.md).
 
 ## Overview
 
+~~~text
 Website visitor
-|
-| <script> tag loads the widget
-v
-Widget (browser) ---- HTTPS ----> Optimo server (Node.js, TypeScript)
-| security validation, limits, policy
-| knowledge FAQ and document retrieval
-| inference adapter and request queue
-| telemetry minimal logs and metrics
-v
-llama-server (llama.cpp), 127.0.0.1 only
-|
-v
-Local GGUF model file
-
+   |
+   |  <script> tag loads the widget
+   v
+Widget (browser)  ---- HTTPS ---->  Optimo server (Node.js, TypeScript)
+                                      |  security   validation, limits, policy
+                                      |  knowledge  FAQ and document retrieval
+                                      |  inference  adapter and request queue
+                                      |  telemetry  minimal logs and metrics
+                                      v
+                                    llama-server (llama.cpp), 127.0.0.1 only
+                                      |
+                                      v
+                                    Local GGUF model file
+~~~
 
 ## Components (planned)
 
