@@ -16,6 +16,7 @@ for tests.
   expected, what happened and how to reproduce it.
 - Security problems: do not open a public issue. Follow
   [SECURITY.md](SECURITY.md).
+- Conduct concerns: see [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
 
 ## Development workflow
 

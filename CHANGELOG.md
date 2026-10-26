@@ -15,3 +15,4 @@ once it has a first release.
 - Architecture and roadmap documents for the MVP.
 - Security policy and threat model.
 - Contributing guide.
+- Code of conduct (Contributor Covenant 2.1).
