@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# AI models and runtime artifacts (never commit model weights)
+*.gguf
+*.ggml
+*.safetensors
+models/
+llama.cpp/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# Test coverage and reports
+coverage/
+.nyc_output/
+reports/
+
+# Local data and temporary files
+data/
+*.local.yaml
+*.local.json
+tmp/
+.tmp/
+*.tmp
+*.swp
+
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/
