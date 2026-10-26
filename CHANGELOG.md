@@ -16,3 +16,4 @@ once it has a first release.
 - Security policy and threat model.
 - Contributing guide.
 - Code of conduct (Contributor Covenant 2.1).
+- Installation, configuration and testing documents, still at the planning stage.
