@@ -1,0 +1,15 @@
+{
+  "name": "@optimo/server",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Optimo Chatbot HTTP engine.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "node --test \"test/**/*.test.ts\""
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5"
+  }
+}
